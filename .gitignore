@@ -1,0 +1,24 @@
+# File generati
+**/target/
+*.log
+
+# Configurazioni locali
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# IDE
+**/.idea/
+**/.vscode/
+**/.settings/
+**/.classpath
+**/.project
+**/.factorypath
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
